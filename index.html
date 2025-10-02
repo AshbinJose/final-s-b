@@ -4,26 +4,76 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#f5f5f4" />
-
-  <title>S &amp; B Constructions — Building your vision</title>
-  <meta name="description" content="S & B Constructions — Professional construction & fabrication services. Quality workmanship, local teams, responsive support. Contact us today." />
-  <meta name="keywords" content="construction company near me, fabrication, builders, local construction, S & B Constructions" />
-
+  
+  <!-- Enhanced SEO Meta Tags -->
+  <title>S & B Constructions — Professional Construction & Fabrication Services in Kerala</title>
+  <meta name="description" content="S & B Constructions offers expert construction and fabrication services in Kerala. Quality workmanship, local teams, responsive support. Contact us at 8921279791 for your construction needs." />
+  <meta name="keywords" content="construction company Kerala, fabrication services Kerala, builders Vandiperiyar, local construction Kerala, S & B Constructions, construction company near me, building contractors Kerala, PWD works Kerala" />
+  <meta name="author" content="S & B Constructions" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourwebsite.com" />
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="S & B Constructions — Building your vision" />
+  <meta property="og:description" content="Professional construction & fabrication services in Kerala. Quality workmanship and responsive support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta property="og:image" content="https://yourwebsite.com/assets/logo.png" />
+  <meta property="og:site_name" content="S & B Constructions" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="S & B Constructions — Building your vision" />
+  <meta name="twitter:description" content="Professional construction & fabrication services in Kerala" />
+  <meta name="twitter:image" content="https://yourwebsite.com/assets/logo.png" />
+  
+  <!-- Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "S & B Constructions",
+    "description": "Professional construction and fabrication services",
+    "url": "https://yourwebsite.com",
+    "telephone": ["8921279791", "9528221442"],
+    "email": "jimmi.sbconstruction01@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Nellimala Junction, Vandiperiyar PO",
+      "addressLocality": "Vandiperiya",
+      "postalCode": "685533",
+      "addressRegion": "Kerala",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "9.6412",
+      "longitude": "77.0963"
+    },
+    "openingHours": "Mo-Sa 08:00-18:00",
+    "priceRange": "$$",
+    "image": "https://yourwebsite.com/assets/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/sbconstructions",
+      "https://www.instagram.com/sbconstructions"
+    ]
+  }
+  </script>
+  
   <style>
     :root{--cream:#f7f5f2;--brand:#0f172a;--muted:#6b7280}
     *{box-sizing:border-box}
     html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;color:var(--brand);background:var(--cream);scroll-behavior:smooth}
     img{max-width:100%;display:block}
-
     /* Header */
     header{position:fixed;inset:0 0 auto 0;height:72px;display:flex;align-items:center;justify-content:space-between;padding:12px 28px;background:linear-gradient(180deg, rgba(247,245,242,0.95), rgba(247,245,242,0.95));backdrop-filter: blur(6px);z-index:60}
     .brand{display:flex;align-items:center;gap:12px;cursor:pointer}
-    .brand img{height:44px;width:44px;object-fit:contain}
+    /* Increased logo size */
+    .brand img{height:52px;width:52px;object-fit:contain}
     .site-name{font-weight:700;font-size:18px;letter-spacing:0.4px}
     nav{display:flex;gap:18px;align-items:center}
     nav a{color:var(--brand);text-decoration:none;font-weight:600}
-    .hamburger{display:none;border:0;background:transparent;font-size:22px}
-
+    .hamburger{display:none;border:0;background:transparent;font-size:22px;cursor:pointer}
     /* HERO */
     .hero{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden}
     .slides{position:absolute;inset:0}
@@ -33,17 +83,14 @@
     .hero-box{background:rgba(255,255,255,0.85);padding:12px 22px;border-radius:10px;display:inline-block;text-align:center;color:var(--brand);box-shadow:0 6px 18px rgba(15,23,42,0.08)}
     .hero-box h1{font-size:44px;margin:0;font-weight:800}
     .hero-box p{margin:6px 0 0;font-size:18px}
-
     /* Sections */
     section{padding:82px 48px;min-height:60vh}
     .section-title{font-weight:800;font-size:20px;margin-bottom:18px}
     .content-wrap{max-width:1100px;margin:0 auto}
-
     /* About */
     .about-section{position:relative;background-image:url('assets/about.jpg');background-size:cover;background-position:center;color:#fff}
     .about-section::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45));}
     .about-content{position:relative;z-index:2;max-width:1000px;margin:0 auto;text-align:center;padding:80px 20px}
-
     /* Services */
     .services{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
     .service-card{flex:1 1 320px;min-height:320px;position:relative;border-radius:12px;overflow:hidden;cursor:pointer}
@@ -52,12 +99,10 @@
     .service-card .img{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity .6s ease}
     .service-card .img.img2{opacity:0}
     .service-card:hover .img.img2{opacity:1}
-
     /* Dedicated pages */
     .full-page{position:relative;background-size:cover;background-position:center;color:#fff;min-height:100vh}
     .full-page::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45));}
     .full-page .content{position:relative;z-index:2;max-width:1200px;margin:120px auto;padding:40px}
-
     /* Contact form split */
     .contact-section{position:relative;background-image:url('assets/contact-bg.jpg');background-size:cover;background-position:center;color:#fff}
     .contact-section::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45));}
@@ -66,12 +111,11 @@
     label{display:block;font-weight:700;font-size:13px;margin:8px 0 6px}
     input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #d1d5db;font-size:15px}
     .btn-primary{margin-top:12px;background:var(--brand);color:white;padding:12px 16px;border-radius:8px;border:none;cursor:pointer}
-
     /* Floating contact icon */
     .float-contact{position:fixed;right:18px;bottom:18px;background:var(--brand);color:white;height:56px;width:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:999;box-shadow:0 8px 26px rgba(15,23,42,0.18);cursor:pointer}
-
     footer{padding:22px 28px;background:linear-gradient(180deg, rgba(15,23,42,0.02), rgba(15,23,42,0.04));display:flex;justify-content:space-between;align-items:center}
-
+    
+    /* Enhanced Mobile Responsiveness */
     @media(max-width:900px){
       .hero-box h1{font-size:28px}
       .hero-box p{font-size:16px}
@@ -79,15 +123,82 @@
       .hamburger{display:block}
       .services{flex-direction:column}
       .contact-grid{flex-direction:column}
+      /* Increased mobile logo size */
+      .brand img{height:48px;width:48px;}
+      
+      /* Better mobile padding and spacing */
+      section{padding:60px 20px}
+      .hero-box{padding:16px 24px;margin:0 20px}
+      .about-content{padding:60px 20px}
+      .service-card{min-height:280px;margin-bottom:16px}
+      .full-page .content{margin:80px auto;padding:20px}
+      header{padding:12px 20px}
+      footer{padding:20px;flex-direction:column;gap:10px;text-align:center}
+      .float-contact{right:16px;bottom:16px;height:50px;width:50px}
+    }
+    
+    @media(max-width:600px){
+      .hero-box h1{font-size:24px}
+      .hero-box p{font-size:14px}
+      .site-name{font-size:16px}
+      .service-card .label{font-size:20px}
+      .service-card .desc{font-size:14px}
+      section{padding:50px 16px}
+      .hero-box{padding:12px 20px}
+      .full-page .content{margin:60px auto;padding:16px}
+      .contact-form, .contact-info{padding:16px}
+    }
+    
+    @media(max-width:400px){
+      .hero-box h1{font-size:22px}
+      .hero-box{padding:10px 16px}
+      .brand img{height:44px;width:44px;}
+      .site-name{font-size:14px}
+      header{height:64px}
+      section{padding:40px 12px}
+      .full-page .content{margin:40px auto;padding:12px}
+      footer img{height:28px;width:28px;}
     }
   </style>
+  <!-- Local Business SEO Enhancements -->
+ <meta name="geo.region" content="IN-KL" />
+ <meta name="geo.placename" content="Vandiperiyar, Kerala" />
+ <meta name="geo.position" content="9.6412;77.0963" />
+ <meta name="ICBM" content="9.6412, 77.0963" />
+
+ <script type="application/ld+json">
+ {
+  "@context": "https://schema.org",
+  "@type": "ConstructionCompany",
+  "name": "S & B Constructions",
+  "image": "https://yourwebsite.com/assets/logo.png",
+  "@id": "https://yourwebsite.com",
+  "url": "https://yourwebsite.com",
+  "telephone": "+91-8921279791, +91-9528221442",
+  "email": "jimmi.sbconstruction01@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Nellimala Junction, Vandiperiyar PO",
+    "addressLocality": "Vandiperiya",
+    "postalCode": "685533",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 9.6412,
+    "longitude": 77.0963
+  },
+  "openingHours": "Mo-Sa 08:00-18:00",
+  "priceRange": "$$"
+ }
+ </script>
 </head>
 <body>
-
   <header>
     <div class="brand" onclick="scrollToSection('home')">
-      <img src="assets/logo.png" alt="S &amp; B Constructions logo" />
-      <div class="site-name">S &amp; B Constructions</div>
+      <img src="assets/logo.png" alt="S & B Constructions logo" />
+      <div class="site-name">S & B Constructions</div>
     </div>
     <nav id="nav">
       <a href="#home">Home</a>
@@ -97,7 +208,6 @@
     </nav>
     <button class="hamburger" id="hamb">☰</button>
   </header>
-
   <!-- HERO -->
   <section id="home" class="hero">
     <div class="slides">
@@ -114,15 +224,13 @@
       </div>
     </div>
   </section>
-
   <!-- ABOUT -->
   <section id="about" class="about-section">
     <div class="about-content">
       <h2>About Us</h2>
-      <p>S &amp; B Constructions is a dedicated construction and fabrication firm delivering reliable, high-quality building solutions across residential and commercial projects. We focus on precision, safety, and client collaboration — ensuring projects finish on time and within budget. Our team blends modern techniques with trusted craftsmanship to create durable structures and bespoke fabricated elements that meet each client's unique needs.</p>
+      <p>S & B Constructions is a dedicated construction and fabrication firm delivering reliable, high-quality building solutions across residential and commercial projects. We focus on precision, safety, and client collaboration — ensuring projects finish on time and within budget. Our team blends modern techniques with trusted craftsmanship to create durable structures and bespoke fabricated elements that meet each client's unique needs.</p>
     </div>
   </section>
-
   <!-- SERVICES -->
   <section id="services">
     <div class="content-wrap">
@@ -132,7 +240,7 @@
           <div class="img" style="background-image:url('assets/construction1.jpg')"></div>
           <div class="img img2" style="background-image:url('assets/construction2.jpg')"></div>
           <div class="label">Construction</div>
-          <div class="desc">Residential &amp; Commercial — Groundwork to finishing with quality workmanship.</div>
+          <div class="desc">Residential & Commercial — Groundwork to finishing with quality workmanship.</div>
         </div>
         <div class="service-card" onclick="scrollToSection('fabrication')">
           <div class="img" style="background-image:url('assets/fabrication1.jpg')"></div>
@@ -143,33 +251,25 @@
       </div>
     </div>
   </section>
-
   <!-- Construction section -->
   <section id="construction" class="full-page" style="background-image:url('assets/construction-bg.jpg')">
     <div class="content">
       <h2>Construction Services</h2>
-      <p>At S & B Constructions, we offer a complete range of professional construction services designed to turn your vision into reality with quality, precision, and reliability. Our expertise spans across building construction, residential housing projects, commercial developments, and all types of civil engineering works. From planning and designing to execution and finishing, we deliver projects that meet the highest standards of durability and functionality.<p/>
-
+      <p>At S & B Constructions, we offer a complete range of professional construction services designed to turn your vision into reality with quality, precision, and reliability. Our expertise spans across building construction, residential housing projects, commercial developments, and all types of civil engineering works. From planning and designing to execution and finishing, we deliver projects that meet the highest standards of durability and functionality.</p>
 <p>We undertake housing construction, ensuring comfortable, safe, and modern living spaces tailored to client requirements. Our building construction services cover everything from small-scale structures to large commercial and institutional projects. We also specialize in PWD works, handling government-approved projects with strict compliance to safety codes and regulations.
-
-In addition, our team provides maintenance and renovation services, helping extend the life of existing buildings and giving them a fresh, modern appeal. Whether it is structural repairs, interior upgrades, or general upkeep, we deliver hassle-free solutions.</p> <p> With a skilled workforce, advanced technology, and a commitment to timely delivery, we cater to every kind of construction requirement. At S & B Constructions, we don’t just build structures—we build trust, long-lasting value, and spaces that stand strong for generations.</p>
+In addition, our team provides maintenance and renovation services, helping extend the life of existing buildings and giving them a fresh, modern appeal. Whether it is structural repairs, interior upgrades, or general upkeep, we deliver hassle-free solutions.</p> <p> With a skilled workforce, advanced technology, and a commitment to timely delivery, we cater to every kind of construction requirement. At S & B Constructions, we don't just build structures—we build trust, long-lasting value, and spaces that stand strong for generations.</p>
     </div>
   </section>
-
   <!-- Fabrication section -->
   <section id="fabrication" class="full-page" style="background-image:url('assets/fabrication-bg.jpg')">
     <div class="content">
       <h2>Fabrication Services</h2>
       <p>S & B Constructions delivers high-quality fabrication services designed to meet the diverse needs of residential, commercial, and industrial clients. Our expertise covers steel, aluminum, and other metal works, crafted with precision engineering and modern techniques. From heavy structural fabrication for warehouses and buildings to custom gates, grills, staircases, and roofing solutions, our products are built for strength, durability, and design appeal.</p>
-
-<p>We manage industrial fabrication projects with a focus on safety, performance, and cost efficiency. Our custom fabrication services include sheet metal works, welded assemblies, and on-site installations tailored to each client’s unique requirements.
-
+<p>We manage industrial fabrication projects with a focus on safety, performance, and cost efficiency. Our custom fabrication services include sheet metal works, welded assemblies, and on-site installations tailored to each client's unique requirements.
 To ensure long-term value, we also provide maintenance and repair services for existing fabricated structures. Every project reflects our commitment to fine finishing, structural reliability, and on-time delivery.</p>
-
 <p>For us, fabrication is more than working with metal—it is about creating lasting strength, enhancing functionality, and delivering solutions that balance utility with style. Whatever the scale of your requirement, S & B Constructions ensures fabrication services that are dependable, efficient, and built to last.</p>
     </div>
   </section>
-
   <!-- CONTACT -->
   <section id="contact" class="contact-section">
     <div class="content-wrap">
@@ -194,24 +294,35 @@ To ensure long-term value, we also provide maintenance and repair services for e
         <div class="contact-info">
           <h3>On Your Service</h3>
           <p><strong>S&B Construction</strong></p>
-          <p><strong>Phone:</strong> 8921279791 / 9528221442</p>
-          <p><strong>Email:</strong> jimmi.sbconstruction01@gmail.com</p>
+          <p><strong>Phone:</strong> 
+           <a href="tel:+918921279791">8921279791</a> / 
+           <a href="tel:+919528221442">9528221442</a>
+          </p>
+          <p><strong>Email:</strong> 
+           <a href="mailto:jimmi.sbconstruction01@gmail.com">jimmi.sbconstruction01@gmail.com</a>
+          </p>
           <p><strong>Address:</strong><br/>Nellimala Junction,<br/>Vandiperiyar PO,<br/>Vandiperiya, Pin:685533<br/> Kerala India</p>
         </div>
+          <!-- Google Map Embed -->
+        <div style="margin-top:12px;">
+        <iframe 
+         src="https://www.google.com/maps?q=Nellimala+Junction,+Vandiperiyar,+Kerala+685533&output=embed" 
+         width="100%" height="220" style="border:0;border-radius:8px;" 
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+       </div>
+
       </div>
     </div>
   </section>
-
   <div class="float-contact" title="Contact us" onclick="scrollToSection('contact')">✉</div>
-
   <footer>
     <div style="display:flex;align-items:center;gap:12px">
-      <img src="assets/logo.png" alt="S &amp; B Constructions logo" style="height:36px;width:36px;object-fit:contain" />
-      <div style="font-weight:700">S &amp; B Constructions</div>
+      <img src="assets/logo.png" alt="S & B Constructions logo" style="height:36px;width:36px;object-fit:contain" />
+      <div style="font-weight:700">S & B Constructions</div>
     </div>
-    <div>&copy; <span id="year"></span> S &amp; B Constructions — Built with care</div>
+    <div>&copy; <span id="year"></span> S & B Constructions — Built with care</div>
   </footer>
-
   <script>
     function scrollToSection(id){const el=document.getElementById(id);if(!el)return;el.scrollIntoView({behavior:'smooth'});history.replaceState(null,'','#'+id);}
     document.getElementById('hamb').addEventListener('click',()=>{const nav=document.getElementById('nav');if(nav.style.display==='flex') nav.style.display='none'; else nav.style.display='flex';nav.style.position='absolute';nav.style.right='18px';nav.style.top='72px';nav.style.background='white';nav.style.padding='12px';nav.style.borderRadius='8px';});
@@ -221,4 +332,3 @@ To ensure long-term value, we also provide maintenance and repair services for e
   </script>
 </body>
 </html>
-
